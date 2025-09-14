@@ -57,7 +57,7 @@ h6 {
   font-size: 24px;
   margin-bottom: 0;
   font-weight: 600;
-  color: #012970;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -70,7 +70,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #118322;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -84,7 +84,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: #088b2b;
   color: #fff;
 }
 
@@ -93,9 +93,7 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Override some default Bootstrap stylings
---------------------------------------------------------------*/
+
 /* Dropdown menus */
 .dropdown-menu {
   border-radius: 4px;
@@ -236,7 +234,7 @@ h6 {
   padding: 20px 0 15px 0;
   font-size: 18px;
   font-weight: 500;
-  color: #012970;
+  color: #000000;
   font-family: "Inter", sans-serif;
 }
 
@@ -299,7 +297,7 @@ h6 {
 
 .accordion-flush .accordion-body {
   padding: 0 0 15px 0;
-  color: #3e4f6f;
+  color: #000000;
   font-size: 15px;
 }
 
@@ -307,7 +305,7 @@ h6 {
 .breadcrumb {
   font-size: 14px;
   font-family: "Inter", sans-serif;
-  color: #899bbd;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -490,7 +488,7 @@ h6 {
 }
 
 .header-nav .nav-profile {
-  color: #012970;
+  color: #000000;
 }
 
 .header-nav .nav-profile img {
@@ -626,11 +624,11 @@ h6 {
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #1e3a8a;
+  background-color: #ffffff;
 }
 
 .sidebar hr.sidebar-divider {
-  border-top: 1px solid #eaecf4;
+  border-top: 1px solid #000000;
 }
 
 @media (max-width: 1199px) {
@@ -702,14 +700,18 @@ h6 {
   margin: 10px 0 5px 15px;
 }
 
+/*--------------------------------------------------------------
+# LI AND A COLORS
+--------------------------------------------------------------*/
+
 .sidebar-nav .nav-link {
   display: flex;
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
   transition: 0.3;
-  background: #1e3a8a;
+  background: #ffffff;
   padding: 10px 15px;
   border-radius: 4px;
 }
@@ -717,25 +719,25 @@ h6 {
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #fff;
+  color: #000000;
 }
 
 .sidebar-nav .nav-link.collapsed {
-  color: #fff;
-  background: #1e3a8a;
+  color: #000000;
+  background: #ffffff;
 }
 
 .sidebar-nav .nav-link.collapsed i {
-  color: #fff;
+  color: #000000;
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #fff;
-  background: #2b38a6;
+  color: #047f04;
+  background: #ffffff;
 }
 
 .sidebar-nav .nav-link:hover i {
-  color: #fff;
+  color: #047f04;
 }
 
 .sidebar-nav .nav-link .bi-chevron-down {
@@ -758,7 +760,7 @@ h6 {
   align-items: center;
   font-size: 14px;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
   transition: 0.3;
   padding: 10px 0 10px 40px;
   transition: 0.3s;
@@ -773,12 +775,12 @@ h6 {
 
 .sidebar-nav .nav-content a:hover,
 .sidebar-nav .nav-content a.active {
-  color: #fff;
-  background: #2b38a6;
+  color: #047f04;
+  background: #ffffff;
 }
 
 .sidebar-nav .nav-content a.active i {
-  background-color: #fff;
+  background-color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -829,7 +831,7 @@ h6 {
 
 .dashboard .info-card h6 {
   font-size: 28px;
-  color: #012970;
+  color: #000000;
   font-weight: 700;
   margin: 0;
   padding: 0;

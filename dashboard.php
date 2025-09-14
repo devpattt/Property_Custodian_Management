@@ -4,21 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Dashboard - Title</title>
+  <title>Dashboard</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/bagong_silang_logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -26,10 +19,7 @@
   <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -39,7 +29,7 @@
 
     <div class="d-flex align-items-center justify-content-between">
       <i class="bi bi-list toggle-sidebar-btn"></i>
-    </div><!-- End Logo -->
+    </div>
 
     <nav class="header-nav ms-auto">
       <ul class="d-flex align-items-center">
@@ -47,14 +37,13 @@
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
-          </a><!-- End Profile Iamge Icon -->
+            <img src="assets/img/default_profile.png" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Juan Delacruz</span>
+          </a>
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <h6>Kevin Anderson</h6>
-              <span>Web Designer</span>
+              <h6>Administrator</h6>
             </li>
             <li>
               <hr class="dropdown-divider">
@@ -97,145 +86,46 @@
               </a>
             </li>
 
-          </ul><!-- End Profile Dropdown Items -->
-        </li><!-- End Profile Nav -->
-
+          </ul>
+        </li>
       </ul>
-    </nav><!-- End Icons Navigation -->
-
-  </header><!-- End Header -->
+    </nav>
+  </header>
 
   <!-- ======= Sidebar ======= -->
   <aside id="sidebar" class="sidebar">
 
     <ul class="sidebar-nav" id="sidebar-nav">
+        <div class="flex items-center justify-center w-full h-16 bg-transparent">
+            <img src="assets/img/bagong_silang_logo.png" 
+                alt="Logo" 
+                style="width: 120px; height: auto; margin: 0 auto; display: block;">
+        </div>
 
-      <div class="flex items-center w-full p-1 pl-6" style="display: flex; align-items: center; padding: 3px; width: 40px; background-color: transparent; height: 4rem;">
-        <div class="flex items-center justify-center" style="display: flex; align-items: center; justify-content: center;">
-            <img src="https://elc-public-images.s3.ap-southeast-1.amazonaws.com/bcp-olp-logo-mini2.png" alt="Logo" style="width: 30px; height: auto;">
-        </div>
-      </div>
-
-      <div style="display: flex; flex-direction: column; align-items: center; padding: 16px;">
-        <div style="display: flex; align-items: center; justify-content: center; width: 96px; height: 96px; border-radius: 50%; background-color: #334155; color: #e2e8f0; font-size: 48px; font-weight: bold; text-transform: uppercase; line-height: 1;">
-            LC
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: center; margin-top: 24px; text-align: center;">
-            <div style="font-weight: 500; color: #fff;">
-                Name
-            </div>
-            <div style="margin-top: 4px; font-size: 14px; color: #fff;">
-                ID
-            </div>
-        </div>
-    </div>
 
     <hr class="sidebar-divider">
 
-      <li class="nav-item">
-        <a class="nav-link " href="index.html">
+      <li class="nav-item" class="active">
+        <a class="nav-link " href="dashboard.php">
           <i class="bi bi-grid"></i>
-          <span>Dashboard</span>
+          <span>Reporting & Analytics</span>
         </a>
-      </li><!-- End Dashboard Nav -->
+      </li>
 
       <hr class="sidebar-divider">
-
-      <li class="nav-heading">Your System</li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#system-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-layout-text-window-reverse"></i><span>Your System</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="system-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="modules.html">
-              <i class="bi bi-circle"></i><span>Modules</span>
-            </a>
-          </li>
-          <li>
-            <a href="modules.html">
-              <i class="bi bi-circle"></i><span>Modules</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End System Nav -->
-
-      <hr class="sidebar-divider">
-      
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-menu-button-wide"></i><span>Asset Registry & Tagging </span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="components-alerts.html">
-              <i class="bi bi-circle"></i><span>Alerts</span>
+            <a href="../../non-consumable.php">
+              <i class="bi bi-circle"></i><span>Non-Consumable Assets</span>
             </a>
           </li>
           <li>
-            <a href="components-accordion.html">
-              <i class="bi bi-circle"></i><span>Accordion</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-badges.html">
-              <i class="bi bi-circle"></i><span>Badges</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-breadcrumbs.html">
-              <i class="bi bi-circle"></i><span>Breadcrumbs</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-buttons.html">
-              <i class="bi bi-circle"></i><span>Buttons</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-cards.html">
-              <i class="bi bi-circle"></i><span>Cards</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-carousel.html">
-              <i class="bi bi-circle"></i><span>Carousel</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-list-group.html">
-              <i class="bi bi-circle"></i><span>List group</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-modal.html">
-              <i class="bi bi-circle"></i><span>Modal</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-tabs.html">
-              <i class="bi bi-circle"></i><span>Tabs</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-pagination.html">
-              <i class="bi bi-circle"></i><span>Pagination</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-progress.html">
-              <i class="bi bi-circle"></i><span>Progress</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-spinners.html">
-              <i class="bi bi-circle"></i><span>Spinners</span>
-            </a>
-          </li>
-          <li>
-            <a href="components-tooltips.html">
-              <i class="bi bi-circle"></i><span>Tooltips</span>
+            <a href="asset_registry_module/consumable/consumable.php">
+              <i class="bi bi-circle"></i><span>Consumable Assets</span>
             </a>
           </li>
         </ul>
@@ -243,7 +133,7 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-journal-text"></i><span>Forms</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-journal-text"></i><span>Property Issuance & Acknowledgment</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
@@ -271,17 +161,12 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-layout-text-window-reverse"></i><span>Supplies Inventory Management </span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="tables-general.html">
-              <i class="bi bi-circle"></i><span>General Tables</span>
-            </a>
-          </li>
-          <li>
-            <a href="tables-data.html">
-              <i class="bi bi-circle"></i><span>Data Tables</span>
+            <a href="supplies_inventory/inventory.php">
+              <i class="bi bi-circle"></i><span>Inventory</span>
             </a>
           </li>
         </ul>
@@ -289,7 +174,7 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-bar-chart"></i><span>Custodian Assignment & Transfer</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
@@ -312,17 +197,17 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-gem"></i><span>Preventive Maintenance Scheduling </span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="icons-bootstrap.html">
-              <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+            <a href="Preventive_Maintenance_Module\schedule_maintenance.php">
+              <i class="bi bi-circle"></i><span>Schedule Maintenance</span>
             </a>
           </li>
           <li>
-            <a href="icons-remix.html">
-              <i class="bi bi-circle"></i><span>Remix Icons</span>
+            <a href="Preventive_Maintenance_Module\records_of_maintenance.php">
+              <i class="bi bi-circle"></i><span>Maintenance Records</span>
             </a>
           </li>
           <li>
@@ -332,6 +217,79 @@
           </li>
         </ul>
       </li><!-- End Icons Nav -->
+
+        <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Lost, Damaged, or Unserviceable Items</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="asset_reporting_module/reporting_management.php">
+              <i class="bi bi-circle"></i><span>Report Management</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>Data Tables</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+
+              <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Property Audit & Physical Inventory</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="tables-general.html">
+              <i class="bi bi-circle"></i><span>General Tables</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>Data Tables</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Tables Nav -->
+
+              <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Procurement Coordination</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="tables-general.html">
+              <i class="bi bi-circle"></i><span>General Tables</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>Data Tables</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Tables Nav -->
+
+      
+              <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>User Roles & Access Control</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="tables-general.html">
+              <i class="bi bi-circle"></i><span>General Tables</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-data.html">
+              <i class="bi bi-circle"></i><span>Data Tables</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Tables Nav -->
 
       <hr class="sidebar-divider">
 
@@ -396,7 +354,7 @@
       <h1>Dashboard</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="dashboard.php">Home</a></li>
           <li class="breadcrumb-item active">Dashboard</li>
         </ol>
       </nav>
@@ -427,7 +385,7 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Sales <span>| Today</span></h5>
+                  <h5 class="card-title">Low Stocks</h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
@@ -462,14 +420,14 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Revenue <span>| This Month</span></h5>
+                  <h5 class="card-title">Stocks <span>| This Week</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                       <i class="bi bi-currency-dollar"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>$3,264</h6>
+                      <h6>3,264</h6>
                       <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
 
                     </div>
@@ -498,7 +456,7 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Customers <span>| This Year</span></h5>
+                  <h5 class="card-title">Critical Stocks</h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
@@ -598,79 +556,85 @@
               </div>
             </div><!-- End Reports -->
 
-            <!-- Recent Sales -->
-            <div class="col-12">
-              <div class="card recent-sales overflow-auto">
+          <!-- Maintenance Schedule -->
+          <div class="col-12">
+            <div class="card recent-sales overflow-auto">
 
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filter</h6>
-                    </li>
+              <div class="filter">
+                <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                  <li class="dropdown-header text-start">
+                    <h6>Filter</h6>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Today</a></li>
+                  <li><a class="dropdown-item" href="#">This Month</a></li>
+                  <li><a class="dropdown-item" href="#">This Year</a></li>
+                </ul>
+              </div>
 
-                    <li><a class="dropdown-item" href="#">Today</a></li>
-                    <li><a class="dropdown-item" href="#">This Month</a></li>
-                    <li><a class="dropdown-item" href="#">This Year</a></li>
-                  </ul>
-                </div>
+              <div class="card-body">
+                <h5 class="card-title">Maintenance Schedule <span>| Upcoming</span></h5>
 
-                <div class="card-body">
-                  <h5 class="card-title">Recent Sales <span>| Today</span></h5>
-
-                  <table class="table table-borderless datatable">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Customer</th>
-                        <th scope="col">Product</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"><a href="#">#2457</a></th>
-                        <td>Brandon Jacob</td>
-                        <td><a href="#" class="text-primary">At praesentium minu</a></td>
-                        <td>$64</td>
-                        <td><span class="badge bg-success">Approved</span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="#">#2147</a></th>
-                        <td>Bridie Kessler</td>
-                        <td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td>
-                        <td>$47</td>
-                        <td><span class="badge bg-warning">Pending</span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="#">#2049</a></th>
-                        <td>Ashleigh Langosh</td>
-                        <td><a href="#" class="text-primary">At recusandae consectetur</a></td>
-                        <td>$147</td>
-                        <td><span class="badge bg-success">Approved</span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="#">#2644</a></th>
-                        <td>Angus Grady</td>
-                        <td><a href="#" class="text-primar">Ut voluptatem id earum et</a></td>
-                        <td>$67</td>
-                        <td><span class="badge bg-danger">Rejected</span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="#">#2644</a></th>
-                        <td>Raheem Lehner</td>
-                        <td><a href="#" class="text-primary">Sunt similique distinctio</a></td>
-                        <td>$165</td>
-                        <td><span class="badge bg-success">Approved</span></td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                </div>
+                <table class="table table-borderless datatable" id="maintenanceTable">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Asset</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">Frequency</th>
+                      <th scope="col">Start Date</th>
+                      <th scope="col">Personnel</th>
+                      <th scope="col">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
 
               </div>
-            </div><!-- End Recent Sales -->
+            </div>
+          </div>
+
+          <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              fetch('fetch_schedule.php')
+                .then(response => response.json())
+                .then(data => {
+                  const tbody = document.querySelector('#maintenanceTable tbody');
+                  tbody.innerHTML = '';
+                  const today = new Date().setHours(0,0,0,0); // midnight today
+                  data.forEach((schedule, index) => {
+                    const scheduleDate = new Date(schedule.start_date).setHours(0,0,0,0);
+                    let statusText = '';
+                    let badgeClass = '';
+
+                    if (scheduleDate < today) {
+                      statusText = 'Completed';
+                      badgeClass = 'bg-success';
+                    } else if (scheduleDate === today) {
+                      statusText = 'Ongoing';
+                      badgeClass = 'bg-primary';
+                    } else {
+                      statusText = 'Pending';
+                      badgeClass = 'bg-warning';
+                    }
+
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                      <th scope="row">${index + 1}</th>
+                      <td>${schedule.asset}</td>
+                      <td>${schedule.type}</td>
+                      <td>${schedule.frequency}</td>
+                      <td>${schedule.start_date}</td>
+                      <td>${schedule.personnel}</td>
+                      <td><span class="badge ${badgeClass}">${statusText}</span></td>
+                    `;
+                    tbody.appendChild(tr);
+                  });
+                })
+                .catch(err => console.error('Error fetching schedule:', err));
+            });
+          </script>
 
             <!-- Top Selling -->
             <div class="col-12">
@@ -760,7 +724,6 @@
                 <li class="dropdown-header text-start">
                   <h6>Filter</h6>
                 </li>
-
                 <li><a class="dropdown-item" href="#">Today</a></li>
                 <li><a class="dropdown-item" href="#">This Month</a></li>
                 <li><a class="dropdown-item" href="#">This Year</a></li>
@@ -771,59 +734,58 @@
               <h5 class="card-title">Recent Activity <span>| Today</span></h5>
 
               <div class="activity">
-
-                <div class="activity-item d-flex">
-                  <div class="activite-label">32 min</div>
-                  <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
-                  <div class="activity-content">
-                    Quia quae rerum <a href="#" class="fw-bold text-dark">explicabo officiis</a> beatae
-                  </div>
-                </div><!-- End activity item-->
-
-                <div class="activity-item d-flex">
-                  <div class="activite-label">56 min</div>
-                  <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
-                  <div class="activity-content">
-                    Voluptatem blanditiis blanditiis eveniet
-                  </div>
-                </div><!-- End activity item-->
-
-                <div class="activity-item d-flex">
-                  <div class="activite-label">2 hrs</div>
-                  <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
-                  <div class="activity-content">
-                    Voluptates corrupti molestias voluptatem
-                  </div>
-                </div><!-- End activity item-->
-
-                <div class="activity-item d-flex">
-                  <div class="activite-label">1 day</div>
-                  <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
-                  <div class="activity-content">
-                    Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
-                  </div>
-                </div><!-- End activity item-->
-
-                <div class="activity-item d-flex">
-                  <div class="activite-label">2 days</div>
-                  <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
-                  <div class="activity-content">
-                    Est sit eum reiciendis exercitationem
-                  </div>
-                </div><!-- End activity item-->
-
-                <div class="activity-item d-flex">
-                  <div class="activite-label">4 weeks</div>
-                  <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
-                  <div class="activity-content">
-                    Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
-                  </div>
-                </div><!-- End activity item-->
-
+                <!-- Activity items will be dynamically inserted here -->
               </div>
 
             </div>
           </div><!-- End Recent Activity -->
+
+          <script>
+          document.addEventListener("DOMContentLoaded", function() {
+              const activityContainer = document.querySelector('.activity');
+
+              fetch('fetch_activity.php') // Make sure this file exists and returns JSON
+              .then(response => response.json())
+              .then(data => {
+                  activityContainer.innerHTML = ''; // clear existing items
+
+                  if(data.length === 0){
+                      activityContainer.innerHTML = '<div class="activity-item d-flex">No recent activity.</div>';
+                      return;
+                  }
+
+                  data.forEach(activity => {
+                      const diff = Math.floor((new Date() - new Date(activity.created_at)) / 1000);
+                      let timeLabel = '';
+                      if(diff < 3600) timeLabel = Math.floor(diff/60) + ' min';
+                      else if(diff < 86400) timeLabel = Math.floor(diff/3600) + ' hrs';
+                      else timeLabel = Math.floor(diff/86400) + ' day(s)';
+
+                      // Choose badge color by module
+                      let badgeClass = 'bg-secondary';
+                      switch(activity.module){
+                          case 'Maintenance': badgeClass='bg-warning'; break;
+                          case 'Assets': badgeClass='bg-primary'; break;
+                          case 'Supplies': badgeClass='bg-success'; break;
+                          case 'Audit': badgeClass='bg-info'; break;
+                          case 'Procurement': badgeClass='bg-secondary'; break;
+                          case 'User Roles': badgeClass='bg-dark'; break;
+                      }
+
+                      const div = document.createElement('div');
+                      div.classList.add('activity-item', 'd-flex');
+                      div.innerHTML = `
+                          <div class="activite-label">${timeLabel}</div>
+                          <i class='bi bi-circle-fill activity-badge ${badgeClass} align-self-start'></i>
+                          <div class="activity-content">${activity.description}</div>
+                      `;
+                      activityContainer.appendChild(div);
+                  });
+              })
+              .catch(err => console.error('Error fetching activity:', err));
+          });
+          </script>
+
 
           <!-- Budget Report -->
           <div class="card">
@@ -1059,9 +1021,54 @@
   <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
   <script src="assets/vendor/tinymce/tinymce.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+      const activityContainer = document.querySelector('.activity');
+
+      fetch('fetch_activity.php')
+      .then(response => response.json())
+      .then(data => {
+          activityContainer.innerHTML = ''; 
+
+          if(data.length === 0){
+              activityContainer.innerHTML = '<div class="activity-item d-flex">No recent activity.</div>';
+              return;
+          }
+
+          data.forEach(activity => {
+              const diff = Math.floor((new Date() - new Date(activity.created_at)) / 1000);
+              let timeLabel = '';
+              if(diff < 3600) timeLabel = Math.floor(diff/60) + ' min';
+              else if(diff < 86400) timeLabel = Math.floor(diff/3600) + ' hrs';
+              else timeLabel = Math.floor(diff/86400) + ' day(s)';
+
+              // Choose badge color by module
+              let badgeClass = 'bg-secondary';
+              switch(activity.module){
+                  case 'Maintenance': badgeClass='bg-warning'; break;
+                  case 'Assets': badgeClass='bg-primary'; break;
+                  case 'Supplies': badgeClass='bg-success'; break;
+                  case 'Audit': badgeClass='bg-info'; break;
+                  case 'Procurement': badgeClass='bg-secondary'; break;
+                  case 'User Roles': badgeClass='bg-dark'; break;
+              }
+
+              const div = document.createElement('div');
+              div.classList.add('activity-item', 'd-flex');
+              div.innerHTML = `
+                  <div class="activite-label">${timeLabel}</div>
+                  <i class='bi bi-circle-fill activity-badge ${badgeClass} align-self-start'></i>
+                  <div class="activity-content">${activity.description}</div>
+              `;
+              activityContainer.appendChild(div);
+          });
+      })
+      .catch(err => console.error('Error fetching activity:', err));
+  });
+  </script>
+
 
 </body>
 
